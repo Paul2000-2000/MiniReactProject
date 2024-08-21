@@ -1,0 +1,83 @@
+.best-sellers-container{
+    max-width: 90%;
+    margin: auto;
+}
+
+.best-sellers-container-title{
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 0.1ch;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.best-sellers-items{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.best-sellers-items-item{
+    border: solid 2px grey;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+.best-sellers-items-item-button{
+    width: 80px;
+    height: 35px;
+    position: relative;
+    top: 10px;
+    left: 220px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: #38a2e8;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.best-sellers-items-item-img{
+    width: 75%;
+}
+
+.best-sellers-items-item-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.best-sellers-items-item-category{
+    color: green;
+    text-align: center;
+}
+
+.best-sellers-items-item-text-item3-price{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.best-sellers-items-item-add{
+    color: white;
+    background-color: #38a2e8;
+    border-radius: 25px;
+    border: none;
+    width: 175px;
+    height: 45px;
+    margin-bottom: 55px;
+    cursor: pointer;
+}
+
+.discounted-price {
+    text-decoration: line-through;
+    color: grey; /* Optional: to make the discounted price look less prominent */
+  }
+

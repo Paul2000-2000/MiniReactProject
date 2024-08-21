@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    max-width: 90%;
+    margin: auto;
+}
+
+.navbar-left, .navbar-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-left{
+    gap: 10px;
+}
+
+.navbar-right{
+    gap: 30px;
+}
+
+.navbar-left-circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    background-color: #34ebdb;
+}

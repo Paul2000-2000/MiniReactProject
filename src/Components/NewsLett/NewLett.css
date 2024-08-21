@@ -1,0 +1,61 @@
+.NewLett-container-b{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.NewLett-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #869496;
+    max-width: 50%;
+    margin: auto;
+    height: 35vh;
+}
+
+.NewLett-container-p{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.NewLett-container-embut {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    background-color: #f3f3f3;
+    border-radius: 25px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for the container */
+  }
+  
+  .NewLett-container-embut-inp {
+    flex-grow: 1;
+    height: 100%;
+    border: none;
+    border-radius: 25px 0 0 25px; /* Rounded left side, square right side */
+    padding: 0 15px;
+    font-size: 16px;
+    background-color: white; /* Ensure the input has a white background */
+    outline: none;
+  }
+  
+  .NewLett-container-embut-inp::placeholder {
+    color: #b0b0b0; /* Placeholder text color */
+  }
+  
+  .NewLett-container-embut-but {
+    background-color: #007bff; /* Button background color */
+    color: white;
+    height: 100%;
+    width: 120px;
+    border: none;
+    border-radius: 0 25px 25px 0; /* Rounded right side, square left side */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: -1px; /* Remove the white space between input and button */
+  }
+  
+  .NewLett-container-embut-but:hover {
+    background-color: #0056b3; /* Button hover color */
+  }

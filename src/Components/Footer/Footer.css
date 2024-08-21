@@ -1,0 +1,38 @@
+.footer-container-b{
+    background-color: #545b5c;
+}
+
+.footer-container{
+    margin: auto;
+    max-width: 50%;
+    height: 40vh;
+}
+
+.footer-container-text{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container-text-column-title{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 65px;
+}
+
+.footer-container-text-column-p{
+    color: #8e9c9e;
+    font-size: 16px;
+}
+
+.footer-container-bar{
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #222626;
+    font-size: 20px;
+}

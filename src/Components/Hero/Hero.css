@@ -1,0 +1,38 @@
+.hero-content{
+    height: 60vh;
+    background-image: url("../../Assests/Hero_Large_Desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hero-content-text{
+    margin-left: 5%;
+    max-width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.hero-content-text-h{
+    font-size: 45px;
+    color: white;
+}
+
+.hero-content-text-p{
+    font-size: 20px;
+    color: white;
+}
+
+.hero-content-text-button{
+    width: 225px;
+    height: 55px;
+    border-radius: 25px;
+    color: white;
+    background-color: #38a2e8;
+    text-align: center;
+    border: none;
+    letter-spacing: 0.1ch;
+}
